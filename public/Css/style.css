@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============ Header Css Start ============*/
+.topbar-main {
+    padding: 10px 0;
+}
+.topbar-main .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar-main .header-main>div{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.topbar-main .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.topbar-main .header-main-button button {
+    width: 100px;
+    height: 45px;
+    border-radius: 50px;
+}
+.topbar-main .header-main-button button.login {
+    background-color: #00b2ff;
+    color: white;
+    font-size: 16px;
+    border: 1px solid #00b2ff;
+    margin-left: 15px;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(.25,.75,.5,1.25);
+}
+.topbar-main .header-main-button button.login:hover{
+    background-color: transparent;
+    color: #00b2ff;
+    border: 1px solid #00b2ff;
+}
+.topbar-main .header-main-button button.signup {
+    background-color: transparent;
+    color: #00b2ff;
+    font-size: 16px;
+    border: 1px solid #00b2ff;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(.25,.75,.5,1.25);
+}
+.topbar-main .header-main-button button.signup:hover{
+    background-color: #00b2ff;
+    color: white;
+    border: 1px solid #00b2ff;
+}
+.topbar-main .search-item {
+    text-align: center;
+}
+.topbar-main .header-main-button {
+    text-align: right;
+}
+.topbar-main .search-item input.input-search {
+    background-color: #d6f4ff;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 80%;
+    height: 35px;
+    padding: 0 10px;
+    color: #757575;
+}
+.topbar-main .logo a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #00b2ff;
+    font-weight: bold;
+}
+
+/* Header End */
+
+
+
+
+
+
+
+
+/* Desktop Responsive Css */
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1600px !important;
+}
