@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-      <div> Hello Web Idea for new project</div>
+      <div> Hello Web Idea</div>
     </React.Fragment>
     
   );
